@@ -33,8 +33,8 @@ app.use(bodyParser.json())
 
 // Routes
 
-app.use('/auth', authRoutes)
-app.use('/mentors', mentorRoutes)
+app.use('/', authRoutes)
+app.use('/', mentorRoutes)
 
 // Root route handler
 app.get('/', (req, res) => {
