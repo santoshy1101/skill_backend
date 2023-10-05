@@ -1,4 +1,4 @@
-const Mentor = require('../models/Mentor')
+const Mentor = require('../models/mentor')
 
 // Function to get all mentors
 exports.getAllMentors = async (req, res) => {
